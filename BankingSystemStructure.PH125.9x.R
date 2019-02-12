@@ -1,4 +1,4 @@
-##### Early Warning System - Principal Component Analysis with Missing Data (post-Jan 06) v.3.0 #####
+##### Interlinkages in the Malaysian Banking System: Principal Component Analysis on Sector-Wide Macrofinancial Indicators #####
 
 # Clear global environment
 # rm(list=ls())
@@ -48,7 +48,7 @@ indicators.pca.ews.econyy <- data.frame(cbind(indicators.pca.ews, indicators.imp
 colnames(indicators.pca.ews.econyy)[17] = "npl.r"
 colnames(indicators.pca.ews.econyy)[18] = "econ.yy"
 
-# Summary statistics (to compare with line 21)
+# Summary statistics (to compare with line 23)
 imputed.summary.stats <- data.frame(Minimum = apply(indicators.pca.ews[, 1:13], 2, min),
                                     Maximum = apply(indicators.pca.ews[, 1:13], 2, max),
                                     Mean = apply(indicators.pca.ews[, 1:13], 2, mean),
