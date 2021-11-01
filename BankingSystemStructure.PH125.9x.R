@@ -1,7 +1,11 @@
 ##### Interlinkages in the Malaysian Banking System: Principal Component Analysis on Sector-Wide Macrofinancial Indicators #####
 
 # Clear global environment
-# rm(list=ls())
+rm(list=ls())
+
+# Setting working directory
+getwd()
+# setwd("C:/Users/mabm5/Documents/PH125.9x-CYO-Project")
 
 ##### Loading Libraries and Dataset #####
 library(missMDA)
